@@ -4,8 +4,11 @@
 
 複数ファイルから実行ファイルを作成
 ```bash
-$ $ gcc -o main main.c libcommon/sum.c libcommon/diff.c libmsg/message.c 
+$ gcc -o main main.c libcommon/sum.c libcommon/diff.c libmsg/message.c 
 ```
+
+標準ライブラリの場所はubuntuだと`/usr/lib/x86_64-linux-gnu`とかにある
+
 
 ## 静的ライブラリファイルをリンクする方法
 分割したファイルからライブラリを作成し、ソースコードをコンパイルする際に静的リンクする。

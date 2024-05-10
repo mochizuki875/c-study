@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include "libcommon/common.h"
+#include <stdio.h> // /usr/include からヘッダファイルを読み込む
+#include "libcommon/common.h" // 任意の場所からヘッダファイルを読み込む
 #include "libmsg/message.h"
 
 int main(void)
